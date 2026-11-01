@@ -1,0 +1,55 @@
+/* Estilos básicos da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Título principal usando ID */
+#titulo-portal {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+
+/* Layout Flexbox: deixa as 3 colunas lado a lado */
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Estilo de cada cartão/coluna */
+.secao-card {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Títulos das seções usando classe */
+.titulo-secao {
+    font-size: 1.2rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos de texto */
+.texto-descricao {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Imagens ilustrativas */
+.img-midia {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}

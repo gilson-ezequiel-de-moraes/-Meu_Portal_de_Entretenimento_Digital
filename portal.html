@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portal de Entretenimento Digital</title>
+
+    <!-- 1. CSS Reset -->
+    <link rel="stylesheet" href="reset.css">
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- 2. CSS Interno -->
+    <style>
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            padding: 10px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-portal" style="color: white;">Meu Portal de Entretenimento Digital</h1>
+    </header>
+
+    <!-- Seções em Flexbox (3 colunas) -->
+    <main class="container-flex">
+
+        <!-- Seção 1 -->
+        <section class="secao-card">
+            <h2 class="titulo-secao">1. Filmes e Séries</h2>
+            <p class="texto-descricao">Fique por dentro das novidades do cinema, lançamentos de streaming e análises de produções clássicas.</p>
+            <img class="img-midia" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" alt="Cinema">
+            <img class="img-midia" src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&w=400&q=80" alt="Streaming">
+        </section>
+
+        <!-- Seção 2 -->
+        <section class="secao-card">
+            <!-- 3. Exemplo de CSS Inline -->
+            <h2 class="titulo-secao" style="color: #8e44ad;">2. Música e Podcasts</h2>
+            <p class="texto-descricao">Explore listas de reprodução, entrevistas exclusivas com artistas e podcasts sobre diversos temas.</p>
+            <img class="img-midia" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80" alt="Fones">
+            <img class="img-midia" src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=400&q=80" alt="Podcast">
+        </section>
+
+        <!-- Seção 3 -->
+        <section class="secao-card">
+            <h2 class="titulo-secao">3. Games e Tecnologia</h2>
+            <p class="texto-descricao">Acompanhe notícias sobre eSports, novidades de hardwares potentes e análises de jogos atuais.</p>
+            <img class="img-midia" src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=400&q=80" alt="Games">
+            <img class="img-midia" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=400&q=80" alt="Setup">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal de Entretenimento Digital</p>
+    </footer>
+
+</body>
+</html>
